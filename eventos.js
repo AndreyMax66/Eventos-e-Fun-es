@@ -19,7 +19,7 @@ function sair(){
         caixa.style.backgroundColor= "rgb(84, 209, 203)"
         caixa.innerText = "Andrey"
 }
-function mostrartexto(){}
+
 
 
 
