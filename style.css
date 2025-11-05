@@ -1,0 +1,43 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(122, 95, 61);
+    color: rgb(204, 132, 31);
+
+}
+
+    select{
+        color: rgb(0, 0, 0);
+    }
+
+
+
+
+#caixa{
+    background-color: rgb(84, 209, 203);
+    color: aliceblue;
+    font-size: 100px;
+    display: flex;
+    width: 5em;
+    height: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcao-vermelho{
+    color: red;
+}
+.opcao-verde{
+    color: green;
+}
+.opcao-azul{
+    color:blue
+}
+.opcao-amarelo{
+    color:yellow;
+}
+
+p{
+    font-size: 50px;
+}

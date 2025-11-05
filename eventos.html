@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="texto">Andrey</p>
+    <script src="eventos.js"></script>
+    <button onclick="mudartexto()">Mudar Nome</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id= "caixa" onmouseover="entrar()" onmouseleave="sair()">
+                Max
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <select id="cor" onchange="mudarcor()">
+        <option value="red" class="opcao-vermelho">vermelho</option>
+        <option value="green" class="opcao-verde">verde</option>
+        <option value="blue" class="opcao-azul">azul</option>
+        <option value="yellow" class="opcao-amarelo">amarelo</option>
+
+    </select>
+</body>
+</html>
